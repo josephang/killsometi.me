@@ -1,0 +1,142 @@
+/*********************
+General
+***********************/
+.wrapper{
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+   text-align: justify;
+}
+
+.main{
+  padding: 80px;
+}
+
+body {
+  font-family: 'Prociono', serif;
+  font-weight: 300;
+  background-color: #B2DBBF;
+}
+
+/***********************
+  Navigation
+************************/
+
+nav{
+  padding: 20px 0;
+}
+
+nav .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+/**********************
+  Carousel
+***********************/
+hr{
+  width: 85%;
+}
+/*
+.jumbotron {
+  display: flex;
+  align-items: center;	
+  color: #ffffff;
+  height: 250px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  background-image: url('');
+  background-size: cover;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 40%;
+  height: 40%;
+  margin: auto;
+}
+
+.carousel-caption{
+  color: #F3FFBD;
+}
+
+/***********************
+Main Section
+************************/
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.btn .btn-primary {
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn .btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+}
+
+.main-section{
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 230px;
+}
+
+/**************************
+  Footer
+***************************/
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
